@@ -1,3 +1,9 @@
 name = "lively-sunset-44c1"
 main = "_worker.js"
 compatibility_date = "2025-02-23"
+[[r2_buckets]]
+binding = 'unityass' # <~ valid JavaScript variable name
+bucket_name = 'unityass'
+[[r2_buckets]]
+binding = 'tuchuan' # <~ valid JavaScript variable name
+bucket_name = 'tuchuan'
