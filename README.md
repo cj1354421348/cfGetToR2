@@ -4,3 +4,4 @@
 不需要MY_BUCKET环境变量
 AUTH_KEY_SECRET是用于添加和删除命令的key
 ```
+..
