@@ -30,8 +30,8 @@ export default {
         
         // Get the bucket name and key from the path (e.g., /bucket1/filename -> bucket1, filename)
         const bucketName = pathSegments[0];
-        const key = pathSegments.slice(1).join('/');
-
+        const key = decodeURIComponent(pathSegments.slice(1).join('/'));  // Decoding the key part
+        
         // Get the bucket based on the name from the environment
         const bucket = await getBucket(env, bucketName);
 
